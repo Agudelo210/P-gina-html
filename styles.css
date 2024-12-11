@@ -1,0 +1,179 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Sección bienvenida */
+section#inicio {
+    background: url('bienvenida.jpg') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+section#inicio h1 {
+    font-size: 3em;
+    color: black
+}
+
+section#inicio button {
+    padding: 10px 20px;
+    background-color: #ff6347;
+    border: none;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+/* Productos */
+section#productos {
+    padding: 50px 0;
+    text-align: center;
+}
+
+section#productos h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.productos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.producto-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+}
+
+.producto-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.producto-card button {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Contacto */
+section#contacto {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+section#contacto form input,
+section#contacto form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+section#contacto form button {
+    padding: 10px 20px;
+    background-color: #ff6347;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+#nosotros {
+    margin-left: 10px;
+}
+.explorar-productos{
+    text-decoration: none;
+    margin-bottom: 0px;
+}
+p{
+    color: black;
+}
+.videos{
+    padding-top: 15px;
+}
+
+/* Estilo para el contenedor de las ofertas */
+.ofertas {
+    text-align: center; /* Centrado del texto */
+    border: 2px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+  color:#555;
+}
